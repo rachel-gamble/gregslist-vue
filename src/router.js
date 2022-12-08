@@ -12,7 +12,22 @@ const routes = [
     component: loadPage('HomePage')
   },
   {
-    path: '/Houses',
+    path: '/cars',
+    name: 'Cars',
+    component: loadPage('CarsPage')
+  },
+  {
+    path: '/cars/:id',
+    name: 'CarDetails',
+    component: loadPage('CarDetailsPage')
+  },
+  {
+    path: '/jobs',
+    name: 'Jobs',
+    component: loadPage('JobsPage')
+  },
+  {
+    path: '/houses',
     name: 'Houses',
     component: loadPage('HousesPage')
   },
